@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./Assets/Css/index.css"/>
 </head>
  <body>
-     <!-- note -->
   <header>
     <section> 
      <div  class="box-container">
