@@ -1,0 +1,189 @@
+/* .responsive-img {
+  max-width: 100%;
+  height: auto;
+} */ 
+
+/* concenant la fome de body */ 
+body {
+  font-family: Avenir, sans-serif;
+  text-align: justify;
+  color: #fff;
+  /* j'ai créé un dégradé linéaire CSS graduel */
+  background: linear-gradient(45deg, #FFCCCC, #CCFFFF);
+}
+/* j'ai ajusté l'état de survol d'une balise d'ancrage */
+body:hover {
+  color: black;
+}
+/* concenant uniqement le titre h1 */ 
+h1 {
+    color: brown;
+    text-align: center;
+}
+/* concenant uniqement le titre h2 */ 
+h2 {
+    font-style: italic;
+    background-color: lightgrey;
+    color:#6a5acd;
+    /*display: inline;*/
+    text-align: center; 
+    margin: 20px 0;
+    width: 99%; 
+    vertical-align: middle; 
+}
+
+/*SECTIONS-concenant toutes les sections */ 
+section {
+  display: flex; 
+  flex-flow: column;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 10px;
+ /* background-color: rgb(60, 146, 163); */
+
+ /* j'ai utilisé un dégradé linéaire CSS pour créer un élément rayé */
+ background: repeating-linear-gradient(
+      60deg,
+      rgb(218, 218, 157) 0px,
+      rgb(136, 178, 218) 40px,
+      rgb(147, 189, 147) 40px,
+      rgb(153, 188, 197) 80px);
+}
+
+/*.competence {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* Concernant uniquement my photo */
+ .box-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+.maphoto {
+  display: flex; 
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+   border-radius: 50%;
+   border-style: solid;
+   margin-left: auto;
+   margin-right: auto;
+}
+/* Concernant uniquement les contacts */
+.contact0{
+  display: flex;
+  flex-direction: column; 
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* Concernant uniquement les paragraphes de contacts */
+.p1 {
+  display: flex;
+  color: rgb(219, 130, 21);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 120%; 
+  margin-left: 30px;
+  /* j'ai défini la hauteur de ligne des paragraphes */
+  line-height: 0px; 
+}
+.p2 {
+  display: flex;
+  color: white;
+  font-style: italic;
+  font-size: 120%;
+   /* j'ai défini la hauteur de ligne des paragraphes */
+  line-height: 0px; 
+}
+/* j'ai ajusté l'état de survol d'une balise d'ancrage */
+.p2:hover {
+  color: black;
+/* j'ai utilisé la transform propriété pour mettre à l'échelle l' div élément à 1,1 fois sa taille d'origine lorsqu'un utilisateur le survole.
+ */  
+  transform: scale(1.1);
+}
+.competence {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  min-width: 100%;
+  display:inline-block;
+  text-align: center;
+  border-style: solid;
+  background-color: rgb(60, 146, 163); 
+}
+/*SECTIONS - Concernant les éperiences professionnelles */
+.experience {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: rgb(60, 146, 163);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* Concernant chaque éxperience professionnelle */
+.experience2 {
+  display: block;
+  border-style: solid;
+  background-color: rgb(60, 146, 163);
+  padding: 10px;
+  margin: 10px;
+}
+.experience3 {
+  font-size: 0em;
+}
+.experience4 {
+  font-size: 1em;
+  font-weight: normal;
+}
+.experience5 {
+  font-size: 1em;
+}
+
+/*SECTIONS - concernant que les sections formationdiplome */
+.formationdiplome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: rgb(60, 146, 163); 
+}
+
+/*SECTIONS - concernant que les sections divers */
+.divers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: rgb(60, 146, 163);
+  padding-bottom: 10px;
+  margin-bottom: 10px; 
+}
+
+/* concernant tous les images du logo */
+.imglogo {
+ /* width: 50%; */
+ display: inline-block;
+ width: 160px;
+}
+/* concernant toutes les activités */
+.activites {
+  display: block;
+  width: 130%;
+  text-align: center; 
+  padding: auto;
+  margin: auto;
+}
+/* concernant tous les logo */
+.logo {
+  /* width: 30%; */
+  display: inline-block;
+  width: 240px;
+  padding: 20px;
+  margin: 0px;
+}
