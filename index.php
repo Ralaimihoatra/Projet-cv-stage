@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <title>Mon CV de "Développeur Web et Web Mobile"</title>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
         <!--<p1 class="dodger-blue-text">I am dodger blue!</p1>-->
           <div class="contact">
               <p class="p1">Mail:   &#160;</p>
-              <p class="p2"><a href="joseph.ralai@netcourrier.com>">joseph.ralai@netcourrier.com</a></p>
+              <p class="p2"><a href="joseph.ralai@netcourrier.com">joseph.ralai@netcourrier.com</a></p>
           </div>
           <div class="contact">
               <p class="p1">Tél:  &#160;</p>
@@ -30,7 +30,7 @@
               <p class="p2">git@github.com:Ralaimihoatra/PROJET_CV.git</p>
           </div>
           <div class="Picture">
-              <img class="maphoto" src="./Assets/Picture/My photo.JPG" alt="my photo">
+              <img class="maphoto" src="./Assets/Picture/My_photo.JPG" alt="my_photo">
           </div>
      <!--<img src="./Assets/Pictures/My photo.JPG"/> -->
        </div>
@@ -56,7 +56,7 @@
                  <div>
                         <div class="competence">
                             <ul>
-                  <li>Création du site Web wordpress</li>
+                  <li>Création du site Web Wordpress</li>
                   <li>Manupilation du HTML (structure) pour créer une page statique</li>
                   <!--<li>Capacité de mettre en oeuvre DOM</li> LOL-->
                   <li>Insértion d'une image dans une page HTML avec une balise img</li>
@@ -91,7 +91,7 @@
             </div>-->
     </section>
 
-    
+
     <section>
               <h2>Expériences professionnelles</h2>
                     <div class="experience">
@@ -125,7 +125,7 @@
 
                     <div class="experience">
                         <div class="logo">
-                            <a href="sas Ata"><img class="imglogo" src="./Assets/Picture/Ata.png" alt="logo3"></a>
+                            <a href="sas_Ata"><img class="imglogo" src="./Assets/Picture/Ata.png" alt="logo3"></a>
                         </div>
                         <div class="experience2">
                             <h3>Gestionnaire de stocks et des approvisionnements</h3>
@@ -142,7 +142,7 @@
       
                     <div class="experience">
                         <div class="logo">
-                            <a href="sas Mika"><img class="imglogo" src="./Assets/Picture/Mika1.png" alt="logo4"></a>
+                            <a href="sas_Mika"><img class="imglogo" src="./Assets/Picture/Mika1.png" alt="logo4"></a>
                         </div>
                         <div class="experience2">
                             <h3>Magasinier_vendeur</h3>
@@ -157,7 +157,7 @@
 
                     <div class="experience">
                         <div class="logo">
-                            <a href="sas HOLTEX"><img class="imglogo" src="./Assets/Picture/Holtex.jpg" alt="logo5"></a>
+                            <a href="sas_HOLTEX"><img class="imglogo" src="./Assets/Picture/Holtex.jpg" alt="logo5"></a>
                         </div>
                         <div class="experience2">
                             <h3>Magasinier_cariste</h3>
@@ -273,7 +273,7 @@
                         </div>
                         <div class="experience2">
                             <h3>Titulaire permis B</h3>
-                            <h4>Véhiculé</h4></a>
+                            <h4>Véhiculé</h4>
                         </div>
               </div>
 
@@ -283,7 +283,7 @@
                         </div>
                         <div class="experience2">
                             <h3>Passionné du jeu de pétanque</h3>
-                            <h4>participé aux petits concours</h4></a>
+                            <h4>participé aux petits concours</h4>
                         </div>
               </div>
 
@@ -292,7 +292,7 @@
                             <a href="laWii"><img class="imglogo" src="./Assets/Picture/Lawii.jpg" alt="logo1"></a>
                         </div>
                         <div class="experience2">
-                            <h3>Passionné du jeu de La wii</h3></a>
+                            <h3>Passionné du jeu de La wii</h3>
                         </div>
               </div>
             
@@ -309,7 +309,7 @@
                         <div class="logo">
                                 <a href="Permis"><img class="imglogo" src="./Assets/Picture/téléchargé (2).png" alt="vehicule">
                             <h3>Titulaire permis B</h3>
-                            <h4>Véhiculé</h4></a>*/
+                            <h4>Véhiculé</h4></a> -->
                 
     </section>           
   </footer>
