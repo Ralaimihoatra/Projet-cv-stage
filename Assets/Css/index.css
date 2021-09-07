@@ -3,7 +3,7 @@
   height: auto;
 } */ 
 
-/* concenant la fome de body */ 
+/* concenant la forme de body */ 
 body {
   font-family: Avenir, sans-serif;
   text-align: justify;
@@ -50,10 +50,7 @@ section {
       rgb(153, 188, 197) 80px);
 }
 
-/*.competence {
-  display: flex;
-  flex-direction: row;
-} */
+
 
 /* Concernant uniquement my photo */
  .box-container {
