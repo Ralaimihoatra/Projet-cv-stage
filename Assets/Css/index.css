@@ -101,7 +101,7 @@ section {
   color: black;
 /* j'ai utilisé la transform propriété pour mettre à l'échelle l' div élément à 1,1 fois sa taille d'origine lorsqu'un utilisateur le survole.
  */  
-  transform: scale(1.1);
+  transform: scale(1);
 }
 .competence {
   /* display: flex;
