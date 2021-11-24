@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./Assets/Css/index.css"/>
     </head>
+
     <body>
         <header>        
             <section> 
@@ -36,11 +37,13 @@
                     </div>
                 </div>
             </section>
+
                 <div>
                     <div class="metier">
                     <h1 class="poste"><em>Développeur Web & Web Mobile junior</em></h1>
                     </div>
                 </div>
+
         </header>
         <main> 
             <section>
@@ -66,15 +69,16 @@
                     <h2>Expériences professionnelles</h2>
                         <div class="experience">
                                 <div class="logo">
-                                    <a href="ITESA"><img class="imglogo" src="./Assets/Picture/alta1.png" alt="logo2"></a>
+                                    <a href="https://www.altagroup.fr"><img class="imglogo" src="./Assets/Picture/alta1.png" alt="logo2"></a>
                                 </div>
                                 <div class="experience2">
                                     <h3>stage</h3>
                                     <h4>Novembre-Décembre 2021</h4>
-                                    <h5>Assainissement</h5>
+                                    <h5>Agrégats Location Terrassement Assainissement à Saint Maximin.</h5>
                                 </div>
                                 <div class="activites">
-                                    <p>Conception du site ALTA STONE avec WooCommerce</p>
+                                    <p>J'ai travaillé avec la Responsable marketing et communication pour 
+                                        la création et la conception du site<br>e-commerce (WooCommerce) ALTA STONE sous WordPress.</p>
                                 </div> 
                         </div> 
 
@@ -196,7 +200,7 @@
                         </div> 
             </section>       
         </main>
-
+    </body>
         <footer>
             <section>
                     <h2>Divers</h2>
@@ -229,6 +233,5 @@
                             </div>
                         </div>                                             
             </section>           
-        </footer>
-    </body>
+        </footer>  
 </html>

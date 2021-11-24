@@ -25,7 +25,6 @@ h2 {
     font-style: italic;
     background-color: lightgrey;
     color:#6a5acd;
-    /*display: inline;*/
     text-align: center; 
     margin: 20px 0;
     width: 99%; 
@@ -68,7 +67,7 @@ section {
    margin-right: auto;
 }
 /* Concernant uniquement les contacts */
-.contact0{
+.contact0 {
   display: flex;
   flex-direction: column; 
 }
