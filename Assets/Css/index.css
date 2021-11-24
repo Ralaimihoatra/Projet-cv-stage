@@ -1,8 +1,9 @@
-/* .responsive-img {
-  max-width: 100%;
+/* STYLES GENERAUX */
+.responsive-img {
+  max-width: 90%;
   height: auto;
-} */ 
-
+} 
+/* STYLES GENERAUX */
 /* concenant la forme de body */ 
 body {
   font-family: Avenir, sans-serif;
@@ -10,11 +11,24 @@ body {
   color: #fff;
   /* j'ai créé un dégradé linéaire CSS graduel */
   background: linear-gradient(45deg, #FFCCCC, #CCFFFF);
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+}
+
+h3, h4, h5, p, li,.maphoto {
+  font-size: 1.3em;
+  color: #fff; 
 }
 /* j'ai ajusté l'état de survol d'une balise d'ancrage */
-body:hover {
-  color: black;
+h3:hover, h4:hover, h5:hover, p:hover, li:hover, .maphoto:hover{
+  color: #000;
 }
+
+/* body:hover {
+  color: black;
+} */
+
 /* concenant uniqement le titre h1 */ 
 h1 {
     color: brown;
@@ -30,7 +44,6 @@ h2 {
     width: 99%; 
     vertical-align: middle; 
 }
-
 /*SECTIONS-concenant toutes les sections */ 
 section {
   display: flex; 
@@ -48,18 +61,16 @@ section {
       rgb(147, 189, 147) 40px,
       rgb(153, 188, 197) 80px);
 }
-
-
-
-/* Concernant uniquement my photo */
+/* Concernant uniquement contact - informations */
  .box-container {
   display: flex;
-  align-items: center;
+  align-items: center; 
   flex-direction: column;
-} 
+}
+ /* Concernant uniquement my photo */
 .maphoto {
   display: flex; 
-  /* flex-direction: row; */
+  flex-direction: row;
   flex-wrap: wrap;
    border-radius: 50%;
    border-style: solid;
@@ -106,27 +117,27 @@ section {
   /* display: flex;
   flex-direction: row;
   justify-content: space-evenly; */
-  min-width: 100%;
+  min-width: 90%;
   display:inline-block;
   text-align: center;
   border-style: solid;
-  background-color: rgb(60, 146, 163); 
+  background-color: rgb(109, 177, 190); 
 }
-/*SECTIONS - Concernant les éperiences professionnelles */
+/*SECTIONS - Concernant les éxpériences professionnelles */
 .experience {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-style: solid;
-  background-color: rgb(60, 146, 163);
+  background-color: rgb(99, 162, 175);
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-/* Concernant chaque éxperience professionnelle */
+/* Concernant chaque éxpérience professionnelle */
 .experience2 {
   display: block;
   border-style: solid;
-  background-color: rgb(60, 146, 163);
+  background-color: rgb(102, 174, 189);
   padding: 10px;
   margin: 10px;
 }
@@ -140,7 +151,6 @@ section {
 .experience5 {
   font-size: 1em;
 }
-
 /*SECTIONS - concernant que les sections formationdiplome */
 .formationdiplome {
   display: flex;
@@ -160,12 +170,15 @@ section {
   padding-bottom: 10px;
   margin-bottom: 10px; 
 }
-
 /* concernant tous les images du logo */
 .imglogo {
  /* width: 50%; */
  display: inline-block;
  width: 160px;
+ /* transform: scale(1.5); */
+}
+.imglogo:hover {
+  color: darkgoldenrod;
 }
 /* concernant toutes les activités */
 .activites {
@@ -183,3 +196,19 @@ section {
   padding: 20px;
   margin: 0px;
 }
+/* style Css version bureau */
+  @media screen and (min-width: 980px) {
+    section {
+      width: 99%;
+      /* box-shadow: 0px 0px 10px #bbb; */
+    }
+    a:hover{
+    color:rgb(39, 34, 20);
+    }
+    header h1{
+    width: 90%;
+    }
+    /* .imglogo:hover { 
+      color: darkgoldenrod;
+    }*/
+  }
