@@ -20,7 +20,7 @@
                         <!--<p1 class="dodger-blue-text">I am dodger blue!</p1>-->
                         <div class="contact">
                             <p class="p1">Mail:   &#160;</p>
-                            <p class="p2"><a href="joseph.ralai@netcourrier.com">joseph.ralai@netcourrier.com</a></p>
+                            <p class="p2"><a href="#">joseph.ralai@netcourrier.com</a></p>
                         </div>
                         <div class="contact">
                             <p class="p1">Tél:  &#160;</p>
@@ -28,7 +28,7 @@
                         </div>
                         <div class="contact">
                             <p class="p1">Github:  &#160;</p>
-                            <p class="p2"><a href="git@github.com:Ralaimihoatra/PROJET_CV.git">git@github.com:Ralaimihoatra/PROJET_CV.git</a></p>
+                            <p class="p2"><a href="#">git@github.com:Ralaimihoatra/PROJET_CV.git</a></p>
                             <!--<p class="p2">git@github.com:Ralaimihoatra/PROJET_CV.git</p>-->
                         </div>
                         <div class="Picture">
@@ -43,7 +43,6 @@
                     <h1 class="poste"><em>Développeur Web & Web Mobile junior</em></h1>
                     </div>
                 </div>
-
         </header>
         <main> 
             <section>
