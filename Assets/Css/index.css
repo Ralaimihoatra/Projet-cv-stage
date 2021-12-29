@@ -184,8 +184,9 @@ section {
 .activites {
   display: block;
   width: 130%;
-  text-align: center; 
-  padding: auto;
+  text-align: center;
+  /* padding: auto;  */
+  padding: 5px;
   margin: auto;
 }
 /* concernant tous les logo */

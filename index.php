@@ -199,9 +199,9 @@
                         </div> 
             </section>       
         </main>
-    </body>
-        <footer>
+    </body>        
             <section>
+                <footer>
                     <h2>Divers</h2>
                         <div class="divers">
                             <div class="logo">
@@ -230,7 +230,7 @@
                             <div class="experience2">
                                 <h3>Passionné du jeu de La wii</h3>
                             </div>
-                        </div>                                             
-            </section>           
-        </footer>  
+                        </div>
+                </footer>                                                         
+            </section>                    
 </html>
