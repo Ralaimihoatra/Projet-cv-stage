@@ -40,7 +40,7 @@
 
                 <div>
                     <div class="metier">
-                    <h1 class="poste"><em>Développeur Web & Web Mobile junior</em></h1>
+                    <h1 class="poste"><em>Développeur Web junior</em></h1>
                     </div>
                 </div>
         </header>
@@ -48,19 +48,24 @@
             <section>
                     <h2>Compétences professionnelles</h2>
                         <div class="competence">        
-                            <div class="logo"><a href="html&css"><img class="imglogo" src="./Assets/Picture/htmlcss-logo.svg" alt="logo1"></a></div>
-                            <div class="logo"><a href="wordpress"><img class="imglogo" src="./Assets/Picture/wordpress_logo.png" alt="logo0"></a></div>
-                            <div class="logo"><a href="php"><img class="imglogo" src="./Assets/Picture/php_logo.png" alt="logo"></a></div>        
+                            <div class="logo"><a href="html&css"><img class="imglogo" src="./Assets/Picture/css_html.png" alt="logo html et css"></a></div>
+                            <div class="logo"><a href="php"><img class="imglogo" src="./Assets/Picture/php_logo.png" alt="logo php"></a></div>       
+                            <div class="logo"><a href="sql"><img class="imglogo" src="./Assets/Picture/sql.png" alt="logo sql"></a></div>
+                            <div class="logo"><a href="mysql"><img class="imglogo" src="./Assets/Picture/logo_mysql.jpg" alt="logo mysql"></a></div>
+                            <div class="logo"><a href="phpMyAdmin"><img class="imglogo" src="./Assets/Picture/phpMyAdmin.jpg" alt="logo phpMyAdmin"></a></div>  
+                            <div class="logo"><a href="wordpress"><img class="imglogo" src="./Assets/Picture/wordpress_logo.png" alt="logo wordpress"></a></div>
+                                    
                         </div>
                         <div class="competence">
                             <ul>
-                                <li>Création du site Web Wordpress</li>
-                                <li>Manupilation des langages HTML5, CSS3 et PHP pour créer du site web</li>                  
-                                <li>Utilisation de la méthode SCRUM (outil de gestion:TRELLO) pour la gestion de projets</li>
-                                <li>Bon sens relationnel, organisé, autonome et travail en équipe</li>
+                                <li>Création du site Web sous Wordpress et avec WooCommerce</li>
+                                <li>Manupilation des langages HTML5, CSS3 et PHP pour créer du site web dynamique</li>                  
+                                <li>Paticipation à la méthode AGILE / SCRUM pour la gestion de projets</li>
+                                <li>Utilisation de l'outil de gestion:TRELLO</li>
+                                <li>Force de proposition, rigueur, curiosité, organisé, autonome et travail en équipe</li>
                                 <li>En relation avec les clients & fournisseurs</li>
                                 <li>Anglais TOEIC niveau A2</li>
-                                <li>Aisance avec les outils: Visual Studio -logiciel SAGE -Excel -Word -PowerPoint</li>
+                                <li>Aisance avec les outils: Visual Studio Code -logiciel SAGE -Excel -Word -PowerPoint</li>
                             </ul>
                         </div>
             </section>

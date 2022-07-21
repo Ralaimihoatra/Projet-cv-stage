@@ -174,7 +174,7 @@ section {
 .imglogo {
  /* width: 50%; */
  display: inline-block;
- width: 160px;
+ width: 130px;
  /* transform: scale(1.5); */
 }
 .imglogo:hover {
